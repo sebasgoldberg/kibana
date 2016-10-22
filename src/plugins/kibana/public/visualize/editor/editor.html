@@ -68,7 +68,7 @@
         <button ng-click="startOver()" aria-label="New Visualization"><i aria-hidden="true" class="fa fa-file-new-o"></i></button>
       </kbn-tooltip>
 
-      <kbn-tooltip text="Save Visualization" placement="bottom" append-to-body="1">
+      <kbn-tooltip text="Save Visualization" placement="bottom" append-to-body="1" ng-hide="true">
         <!-- normal save -->
         <button
           ng-class="{active: configTemplate.is('save')}"
